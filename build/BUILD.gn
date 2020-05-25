@@ -139,8 +139,8 @@ config("default") {
       "-fno-strict-aliasing",  # See https://crbug.com/32204
       "-fobjc-call-cxx-cdtors",
       "-fstack-protector-all",  # Implies -fstack-protector
-      "-fvisibility-inlines-hidden",
-      "-fvisibility=hidden",
+      #"-fvisibility-inlines-hidden",
+      #"-fvisibility=hidden",
     ]
 
     cflags_c = [ "-std=c11" ]
